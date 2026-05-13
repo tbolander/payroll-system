@@ -1,6 +1,6 @@
 # Payroll System Project
 
-This is my SDEV268 final project, built with Java Swing and SQLite.
+This is my SDEV268 final project, built using Java Swing and SQLite.
 
 ## What It Does
 
@@ -19,8 +19,6 @@ Before running the project, you must have the following:
 2. **Extension Pack for Java (in VS Code)**
 3. **JDK (17+ recommended)**
 
-This project was tested with JDK 26.0.1.
-
 ## How to Run
 
 ### Option 1: Run the batch file
@@ -37,10 +35,13 @@ This project was tested with JDK 26.0.1.
 
 **For Admin:**
 
+```
 User ID: HR0001
 Password: ABCpayroll2026!
-
+```
 **For Employee:**
 
+```
 User ID: maya.rodriguez@abccompany.com
 Password: maya.rodriguez!19880314
+```
