@@ -1,5 +1,7 @@
 # Payroll System UML
 
+These two diagrams are the main design I used for my payroll system. I kept them focused only on the most important classes, screens, and database tables instead of listing every small detail.
+
 ## Use Case Diagram
 
 ```mermaid
