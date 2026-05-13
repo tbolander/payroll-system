@@ -16,27 +16,16 @@ The class assignment asks for MD5, so I used MD5 in `PasswordHasher.java`.
 
 The hash demo shows the direct MD5 hash:
 
+```
 Password: ABCpayroll2026!
 MD5 Hash: 582e8194eb2adbe50751c1e37913228f
+```
 
 The normal login database adds a salt before hashing. This means the database does not store the same plain MD5 value shown in the hash demo.
 
 ## Why MD5 Is Mentioned
 
-MD5 is included because it was required for the assignment. In a payroll program I intended to deploy, I would probably use something stronger like PBKDF2, bcrypt, or Argon2.
-
-## Collision Notes
-
-A collision happens when two different values end up with the same hash value or hash table position.
-
-Common ways to handle hash table collisions are:
-
-- Separate chaining
-- Linear probing
-- Quadratic probing
-- Double hashing
-
-Independent uniform hashing means values are expected to spread out evenly in the hash table.
+MD5 is included because it was required for the assignment. In a payroll program that I intended to deploy, I would probably use something stronger like PBKDF2, bcrypt, or Argon2.
 
 ## Secure Coding Practices Used
 
