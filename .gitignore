@@ -1,0 +1,4 @@
+build/
+*.class
+data/test-payroll.db
+*.log

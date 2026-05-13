@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Payroll System",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "powershell -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\run.ps1\"",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Run Payroll Tests",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "powershell -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\test.ps1\"",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Run Hash Demo",
+            "type": "node-terminal",
+            "request": "launch",
+            "command": "powershell -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\hash-demo.ps1\"",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

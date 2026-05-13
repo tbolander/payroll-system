@@ -1,5 +1,16 @@
+package payroll;
+
+import java.nio.file.Path;
+import javax.swing.SwingUtilities;
+import payroll.data.PayrollDatabase;
+import payroll.ui.LoginFrame;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("payroll system running...");
+        Path databasePath = Path.of("data", "payroll.db");
+        PayrollDatabase database = new PayrollDatabase(databasePath);
+        database.initialize();
+
+        SwingUtilities.invokeLater(() -> new LoginFrame(database).setVisible(true));
     }
 }

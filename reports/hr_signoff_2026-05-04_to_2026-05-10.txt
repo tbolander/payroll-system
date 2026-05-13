@@ -1,0 +1,21 @@
+ABC Company Payroll Report
+Pay Period: 2026-05-04 to 2026-05-10
+
+ID       Employee                      Gross        Taxes          Net
+E1001    Maya Rodriguez         $    1192.31 $     218.13 $     964.18
+E1002    Noah Carter            $    1353.75 $     240.54 $    1063.21
+E1003    Ava Thompson           $    1546.88 $     291.86 $    1290.02
+E1004    Liam Brooks            $    1355.77 $     249.22 $    1101.55
+E1005    Emma Wilson            $    1070.00 $     188.19 $     831.81
+E1006    Ethan Davis            $    1212.00 $     221.76 $     980.24
+E1007    Olivia Miller          $     873.31 $     160.21 $     708.10
+E1008    James Anderson         $    1596.15 $     309.25 $    1366.90
+E1009    Sophia Martinez        $    1307.69 $     232.05 $    1025.64
+E1010    Benjamin Taylor        $     956.75 $     167.30 $     739.45
+E1011    Isabella Moore         $    1240.38 $     227.00 $    1003.38
+
+Gross Payroll Total: $13704.99
+Employee Tax Total: $2505.51
+Net Payroll Total: $11074.48
+
+HR Sign Off: ________________________________  Date: ____________
