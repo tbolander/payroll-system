@@ -98,7 +98,9 @@ Account Info tab:
 
 ## Reports
 
-After payroll is calculated, the application creates:
+After payroll is calculated, the application will create:
 
+```
 reports\hr_signoff_YYYY-MM-DD_to_YYYY-MM-DD.txt
 reports\payroll_print_file_YYYY-MM-DD_to_YYYY-MM-DD.csv
+```
