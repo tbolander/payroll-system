@@ -1,6 +1,6 @@
 # Payroll Project Design
 
-This is the design plan I used for my ABC Company payroll final project. I kept the program small and simple enough to understand, but it still covers the main requirements from the project requirements doc.
+This is the design plan I used for my payroll system final project. I kept the program simple to understand overall, but it still covers the main requirements from the project requirements doc.
 
 ## Program Summary
 
